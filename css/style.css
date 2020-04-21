@@ -1,0 +1,199 @@
+/*Font*/
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC|Oxygen&display=swap');
+
+body, html {
+	height: 100%;	
+	margin: 0;
+	padding: 0;
+}
+
+@media screen and (max-width: 830px) {
+
+
+	#container {
+		font-size: 1.1em;
+		flex-wrap: wrap;
+		display: flex;
+		animation: none !important;
+	}
+
+	#left-side h1{
+		font-size: 4vh;
+	}
+
+	#left-side p{
+		font-size: 2.8vh;
+	}
+
+	#left-side {
+		padding: 41px !important;
+		width: 100% !important;
+		text-align: center;
+		height: 90%;
+		animation: none !important;
+	}
+
+	#social-media ul{
+		display: flex !important;
+		align-items: center !important;
+		justify-content: center !important;
+	}
+
+	#social-media ul li {
+		display: inline !important;
+	}
+
+	#social-media ul li img{
+		width: 6.4vh !important;
+	}
+
+	#right-side {
+		animation: none !important;
+		width: 100% !important;
+	}
+
+	#skill ul{
+		padding: 0 !important;
+	}
+	#skill ul li {
+		padding: 4px !important;
+	}
+
+	#bar {
+		width: 90% !important;
+	}
+
+}
+
+#container {
+	display: flex;
+	height: 100%;
+	animation: expand .8s ease forwards;
+
+}
+
+
+#left-side {
+	font-family: 'Noto Sans TC', sans-serif;
+	padding: 30px 50px 0px 50px;
+	width: 35%;
+	background: white;
+	text-align: center;
+
+}
+
+#left-side img {
+	border-radius: 200px;
+	padding: 10px;
+	border: 2px dashed black;
+}
+
+
+#left-side #information {
+	padding-top: 23px;
+	border: 2px solid #000;
+	height: 95%;
+}
+
+#left-side #name {
+	background-color: #000;
+	color: #FFF;
+	display: inline-block;
+	padding: 5px 10px;
+}
+
+#social-media {
+	margin: 20px;
+}
+
+#social-media ul{
+	list-style: none;
+}
+
+#social-media ul li{
+	display: flex;
+	justify-content: center;
+}
+
+#social-media ul li img {
+	border: none;
+	border-radius: 0;
+	width: 50px;
+}
+
+
+#right-side {
+	font-family: 'Noto Sans TC', sans-serif;
+	color: #FFF;
+	padding: 30px;
+	width: 75%;
+	background: #000;
+
+	animation: slideLeft 1.4s;
+}
+
+#right-side h2 {
+	color: #FFF;
+
+}
+
+#skill {
+	padding: 10px;
+	float: left;
+}
+
+#skill ul {
+	list-style: none;
+}
+
+#skill ul li {
+	padding: 10px;
+}
+
+#bar{
+	margin-top: 10px;
+	border-radius: 10px;	
+	width: 30%;
+	height: 10px;
+	background: white;
+}
+
+#bar-1 ,#bar-2, #bar-3{
+	border-radius: 10px;
+	height: 10px;
+	background: #3868D9;
+}
+
+#bar-1 {
+	width: 80%;
+}
+
+#bar-2 {
+	width: 75%;
+}
+
+
+#bar-3 {
+	width: 60%;
+}
+
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(1400px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes expand {
+  0% {
+    transform: translateX(1400px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
