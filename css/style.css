@@ -15,7 +15,6 @@ body, html {
 		font-size: 1.1em;
 		flex-wrap: wrap;
 		display: flex;
-		animation: none !important;
 	}
 
 	#left-side h1{
@@ -31,7 +30,6 @@ body, html {
 		width: 100% !important;
 		text-align: center;
 		height: 90%;
-		animation: none !important;
 	}
 
 	#social-media ul{
@@ -49,7 +47,6 @@ body, html {
 	}
 
 	#right-side {
-		animation: none !important;
 		width: 100% !important;
 	}
 
