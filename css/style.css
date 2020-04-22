@@ -151,7 +151,7 @@ body, html {
 	padding: 10px;
 }
 
-#bar{
+.bar {
 	margin-top: 10px;
 	border-radius: 10px;	
 	width: 30%;
@@ -159,7 +159,7 @@ body, html {
 	background: white;
 }
 
-#bar-1 ,#bar-2, #bar-3{
+#bar-1 ,#bar-2, #bar-3, #bar-4{
 	border-radius: 10px;
 	height: 10px;
 	background: #3868D9;
@@ -176,6 +176,10 @@ body, html {
 
 #bar-3 {
 	width: 60%;
+}
+
+#bar-4 {
+	width: 90%;
 }
 
 
