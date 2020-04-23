@@ -8,8 +8,16 @@ body, html {
 	padding: 0;
 }
 
-@media screen and (max-width: 830px) {
+/*A50*/
+@media only screen 
+and (min-width: 412px) 
+and (max-width: 767px) {
+    .bar {
+		width: 80% !important;
+	}
+}
 
+@media screen and (max-width: 830px) {
 
 	#container {
 		font-size: 1.1em;
@@ -61,6 +69,15 @@ body, html {
 		width: 90% !important;
 	}
 
+}
+
+/*Generic*/
+@media only screen
+and (max-width: 421px)
+and (max-width: 732px) {
+	.bar {
+		width: 80% !important;
+	}
 }
 
 #container {
